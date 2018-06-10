@@ -22,7 +22,7 @@ THIS_IS_CRON=1
 in this example crontab will run ```checker.sh``` every 30min.
 
 by [ET][ET].
-modified by [oeynor][joeynor]
+modified by [joeynor][joeynor]
 
 [ET]: http://etcs.me
 [joeynor]: http://rizal.mohdnor.name
