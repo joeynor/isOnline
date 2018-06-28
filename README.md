@@ -16,10 +16,11 @@ Add the following lines to crontab config ($ crontab -e)
 
 ```
 THIS_IS_CRON=1
+SHELL=/bin/bash
 */30 * * * * /path/to/isOnline/checker.sh
 ```
 
-in this example crontab will run ```checker.sh``` every 30min.
+in this example crontab will run ```checker.sh``` every 30min and will force to use bash instead of sh, seems to not work under sh in ubbuntu
 
 by [ET][ET].
 modified by [joeynor][joeynor]
